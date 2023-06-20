@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./style/normalize.css" />
+        <link rel="stylesheet" href="./style/style.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Маршруты</title>
+    </head>
+    <body>
+        <header class="">
+            <div class="zag">
+                <div class="container verh flex">
+                    <img class="logo" src="./img/logo.png" alt="logo" />
+                    <img class="burger" src="./img/burger.png" alt="menu" />
+                    <p>площадь Революции, г. Челябинск</p>
+                    <div class="nav-icon flex">
+                        <img class="vk-icon" src="./img/vk-icon.png" alt="вк" /><img
+                            class="odnkl-icon"
+                            src="./img/odnkl-icon.png"
+                            alt="одн" />
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar container">
+                <ul class="nav-el list-reset flex">
+                    <li><a href="/index.html">Маршруты</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Статьи</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Корзина</a></li>
+                    <li><a href="#">Избранное</a></li>
+                    <li><a href="#">Профиль</a></li>
+                </ul>
+            </div>
+        </header>
+        <main class="container">
+            <h1>Маршруты</h1>
+            <div class="search">
+                <div class="flex">
+                    <input
+                        class="poisk btn-reset"
+                        style="padding-left: 40px"
+                        placeholder="поиск"
+                        type="text"
+                        name="search" />
+                    <button class="btn-reset search-btn">Найти</button>
+                </div>
+                <div class="poisk-param">
+                    <input class="inp" type="date" value="Дата" name="dattta" id="#" />
+                    <select name="vid" class="navig inp">
+                        <option value="0">Вид</option>
+                        <option value="1">тематическая программа</option>
+                        <option value="2">сюжетная программа</option>
+                        <option value="3">квест</option>
+                        <option value="4">поездка</option>
+                        <option value="5">экскурсия</option>
+                        <option value="6">активный</option>
+                    </select>
+                    <select name="mesto" class="inp">
+                        <option value="0">Место</option>
+                        <option value="1">Челябинск</option>
+                        <option value="2">Екатеринбург</option>
+                        <option value="3">Миасс</option>
+                        <option value="4">Златоуст</option>
+                        <option value="5">Пермь</option>
+                        <option value="6">Кунгур</option>
+                        <option value="7">Троицк</option>
+                        <option value="8">Чебаркуль</option>
+                        <option value="9">Зюраткуль</option>
+                        <option value="10">Таганай</option>
+                    </select>
+                    <select name="vvvv" class="inp">
+                        <option value="0">Цена</option>
+                        <option type="range" min="0" max="10000" class="inp" id="#"></option>
+                    </select>
+                    <!-- <input type="range" min="0" max="10000" class="inp" name="vvvv" id="#" /> -->
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img1 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Тальков камень, фарфоровый завод, Сертыть</h4>
+                            <p>экскурсия</p>
+                            <h5 class="sdvig">2450 руб.</h5>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>3 места</p>
+                                    </div>
+                                </div>
+                                <a href="/index1.html"
+                                    ><button class="btn-reset card-btn">Забронировать</button></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img2 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Снежный бум</h4>
+                            <p>сюжетная программа</p>
+                            <h3>2150 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 часа</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img3 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Легенды севера</h4>
+                            <p>тематическая программа</p>
+                            <h3>2250 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img4 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Шаман трёх миров, аквилон</h4>
+                            <p>тематическая программа</p>
+                            <h3>2250 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img5 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Хранители мечты</h4>
+                            <p>тематическая программа</p>
+                            <h3>2150 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img6 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Ночь перед рождеством</h4>
+                            <p>тематическая программа</p>
+                            <h3>2200 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>2 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img7 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Новогодний фейрверк</h4>
+                            <p>программа-квест</p>
+                            <h3>2200 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 часа</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img8 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Новогодние приключения старшины Морозова</h4>
+                            <p>тематическая программа</p>
+                            <h5 class="sdvig">2200 руб.</h5>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 часа</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img9 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Коляда или древнерусский Новый год</h4>
+                            <p>тематическая программа</p>
+                            <h3>2200 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 часа</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img10 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Киностудия, барабаны, Екатеринбург</h4>
+                            <p>поездка</p>
+                            <h3>7300 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 дня</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>6 мест</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img11 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Киностудия, крокодилы, Екатеринбург</h4>
+                            <p>поездка</p>
+                            <h3>6600 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 дня</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>6 мест</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img12 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Барабанные ёлки 2023</h4>
+                            <p>музыкальный квест</p>
+                            <h3>2500 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>2 часа</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>2 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img13 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Музей Бажова, фарфоровый завод, Сысерть</h4>
+                            <p>экскурсия</p>
+                            <h5 class="sdvig">2550 руб.</h5>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>5 мест</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img14 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Аировка, Косотур, Златоуст</h4>
+                            <p>экскурсия</p>
+                            <h5 class="sdvig">1950 руб.</h5>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>4 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img15 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Колокольня, Семибратка, Златоуст</h4>
+                            <p>экскурсия</p>
+                            <h3>1850 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>3 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img16 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Косотур, Семибратка, Златоуст</h4>
+                            <p>экскурсия</p>
+                            <h3>1700 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>3 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vbor flex">
+                <div class="flex">
+                    <div class="card flex">
+                        <div class="dop-card card-img17 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>Аировка, Семибратка, Златоуст</h4>
+                            <p>экскурсия</p>
+                            <h3>2050 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>3 места</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex cr">
+                    <div class="card flex">
+                        <div class="dop-card card-img18 flex">
+                            <img class="luk" src="./img/Group 58.png" alt="." />
+                        </div>
+                        <div class="card-2v">
+                            <h4>В гости к павлинам и оленям</h4>
+                            <p>экскурсия</p>
+                            <h3>2250 руб.</h3>
+                            <div class="flex otsenk">
+                                <div class="thor">
+                                    <div class="flex ff cc">
+                                        <img class="card-icon" src="./img/time.png" alt="." />
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="flex ff">
+                                        <img class="card-icon" src="./img/geop.png" alt="." />
+                                        <p>1 место</p>
+                                    </div>
+                                </div>
+                                <button class="btn-reset card-btn">Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex nums">
+                <button class="num">1</button><button class="num1">2</button
+                ><button class="num1">3</button><button class="num1">4</button>
+            </div>
+        </main>
+        <footer>
+            <div class="flex container">
+                <div class="flex footsp">
+                    <div class="f-img"><img src="./img/logowhite.png" alt="." /></div>
+                    <div class="yy"><a href="#">Маршруты</a></div>
+                    <ul class="yyy">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div>
+                        <ul class="yyy">
+                            <li><a href="#">Профиль</a></li>
+                            <li><a href="#">Корзина</a></li>
+                            <li><a href="#">Избранное</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-icon yy">
+                        <a class="ic" href="#"><img src="./img/vk-icon.png" alt="." /></a>
+                        <a class="ic" href="#"><img src="./img/odnkl-icon.png" alt="." /></a>
+                        <a href="#"><img src="./img/tg-icon.png" alt="." /></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

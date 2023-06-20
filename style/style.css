@@ -1,0 +1,608 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+p, h1, h2, li, h3, h4, h5{
+    color: #2E4555;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    min-width: 1620px;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent; /*прозрачный фон*/
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.container{
+    width: 1650px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo{
+    width: 390px;
+    height: 70px;
+    margin: 26px 0 26px 0;
+}
+.zag{
+    box-shadow: 0px 10px 20px rgba(46, 69, 85, 0.1);
+}
+.zag p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 70px;
+    text-align: right;
+    width: 580px;
+    height: 70px;
+    margin-left: 394px;
+    margin-right: 131px;
+}
+.nav-icon{
+    width: 125px;
+}
+.nav-icon img {
+    width: 55px;
+    height: 55px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.odnkl-icon{
+ width: 50px;
+}
+.vk-icon{
+    width: 55px;
+    margin-right: 20px;
+}
+.nav-el{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 70px;
+    justify-content: space-between;
+    margin-top: 23px;  
+    width: 1620px;
+}
+
+.nav-el li:hover{
+    color: #81929e;
+}
+.inp{
+    width: 390px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(46, 69, 85, 0.1);
+    border-radius: 65px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2E4555;
+}
+.poisk{
+    width: 1347px;
+    height: 60px;
+    left: 150px;
+    top: 408px;
+    background: #F3F3F3;
+    border-radius: 65px;
+    font-size: 24px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.search-btn{
+    width: 253px;
+    height: 60px;
+    left: 1517px;
+    top: 408px;
+    background: #5EBFC5;
+    border-radius: 65px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 17px 0;
+}
+.search-btn:hover{
+    background: #6ae5ec;
+}
+
+.poisk-param{
+    width: 1620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.poisk-param input{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(46, 69, 85, 0.1);
+    border-radius: 65px;
+    width: 390px;
+    height: 60px;
+    margin-bottom: 80px
+}
+
+@media(max-width: 768px){
+
+}
+@media(max-width: 375px){
+    .container{
+        /* width: 400px;
+        padding: 0 15px; */
+    }
+    .logo{
+        width: 250px; 
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .nav-el{
+        display: none;
+    }
+    .poisk {
+        width: 220px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .search-btn{
+        width: 100px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .poisk-param{
+        flex-direction: column;
+    }
+    .poisk-param input{
+        width: 335px;
+        margin-top: 10px;
+        margin: 0;
+    }
+    .inp{
+        width: 335px;
+        margin-top: 10px;
+        padding: 0 20px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .card{
+        width: 335px;
+        margin-top: 30px;
+        
+    }
+    
+}
+
+
+
+.sdvig{
+    font-size: 32px;
+    text-align: right;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    width: 485px;
+}
+.card{
+    width: 800px;
+    height: 219px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(46, 69, 85, 0.1);
+    border-radius: 65px;
+    margin-bottom: 20px;
+}
+.card-img{
+    background-image: url(../img/hrg.png);
+    width: 253px;
+    height: 219px;
+}
+.luk{
+    width: 100px;
+    height: 100px;
+    margin: -10px auto auto -20px;
+    
+}
+.card-2v{
+    margin-left: 22px;
+}
+.card-2v h4{
+    color: #2E4555;
+    font-size: 24px;
+    margin: 20px 0 8px 0;
+    width: 482px;
+}
+.card-2v p{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.card-2v h3{
+    font-size: 32px;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 485px;
+}
+.card-btn{
+    background: #E6641B;
+    border-radius: 65px;
+    width: 223px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-left: 175px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.card-btn:hover{
+    background: #ff9c62;
+}
+.card-icon{
+    height: 20px;
+}
+.ff p{
+    margin: 0;
+}
+.ff img{
+    margin-right: 15px;
+}
+.cc{
+    margin-bottom: 14px;
+}
+.cr{
+    margin-left: 20px;
+}
+.num{
+    width: 50px;
+    height: 50px;
+    background-color: #5EBFC5;
+    border-radius: 50px;
+    font-size: 24px;
+    margin: 40px 9px 110px 9px;
+    border: none;
+    color: white;
+}
+.num1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 24px;
+    margin: 40px 9px 110px 9px;
+    border: none;
+    color: black;
+}
+.num1:hover{
+    background-color: #dae1e7;
+}
+.nums{
+    justify-content: center;
+}
+footer{
+    background-color: #2D64A1;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footsp{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 40px; */
+}
+.footsp li {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.f-img{
+    margin-top: 40px;
+    margin-right: 160px;
+}
+.f-icon img{
+    width: 55px;
+    height: 55px;
+}
+.yy{
+ margin-top: 40px;
+}
+.yyy li{
+    margin-bottom: 25px;
+    margin-left: 100px;
+}
+.yyy li:hover{
+        text-decoration: underline;
+}
+.yy:hover {
+    text-decoration: underline;
+}
+.ic{
+    margin-right: 20px;
+}
+.f-icon{
+    margin-left: 200px;
+}
+
+.podr-btn {
+    background-color: #E6641B;
+    border-radius: 65px;
+    width: 253px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+margin-top: auto;
+margin-bottom: 24px;
+}
+
+
+@media(max-width: 375px){
+    
+    h4{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .vbor{
+        flex-direction: column;
+    }
+    .cr{
+        width: 335px;
+        margin: 0;
+        margin-left: 0;
+    }
+    .card{
+        width: 335px;
+        height: 605px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cr{
+       
+    }
+    .card h4{
+        width: 300px;
+    }
+    .otsenk{
+        display: flex;
+        flex-direction: column;
+    }
+    .otsenk a{
+        margin: 0;
+        width: 290px;
+    }
+    .card-btn{
+        margin: 15px 0;
+        width: 290px;
+    }
+    .thor{
+        display: flex;
+        flex-direction: row;
+    }
+    .ff{
+        display: flex;
+        flex-direction: row;
+        width: 145px;
+        
+    }
+    .card-v2 p{
+        width: 335px;
+    }
+    .sdvig{
+        width: 290px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .card h3{
+        width: 290px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.podr-btn:hover {
+    background: #ff9c62;
+}
+
+.card-img1 {
+    background-image: url(../img/1-1.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img2{
+    background-image: url(../img/snowboom.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img3{
+    background-image: url(../img/sobaki.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img4{
+    background-image: url(../img/shaman.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img5 {
+    background-image: url(../img/dedmoroz.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img6 {
+    background-image: url(../img/nochperedrojd.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img7 {
+    background-image: url(../img/firevek.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img8 {
+    background-image: url(../img/dedsneg.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img9 {
+    background-image: url(../img/koliada.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img10 {
+    background-image: url(../img/filmstudios.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img11 {
+    background-image: url(../img/kroko.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img12 {
+    background-image: url(../img/baraban.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img13 {
+    background-image: url(../img/muzei.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img14 {
+    background-image: url(../img/airovka.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img15 {
+    background-image: url(../img/kolokol.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img16 {
+    background-image: url(../img/gorka.png);
+    width: 253px;
+    height: 219px;
+}
+.card-img17 {
+    background-image: url(../img/hrg.png);
+    width: 253px;
+    height: 219px;
+}
+
+.card-img18 {
+    background-image: url(../img/povlin.png);
+    width: 253px;
+    height: 219px;
+}
+.burger{
+    display: none;
+}
+@media(max-width: 375px){
+    .dop-card{
+        width: 335px;
+        display: flex;
+        flex-direction: row;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 290px;
+    }
+    .burger{
+        display: block;
+        width: 40px;
+        height: 30px;
+        
+    }
+    .nums{
+        
+        width: 335px;
+    }
+    .num{
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+    .num1{
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+    .footsp{
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+    }
+    .yyy li{
+        font-size: 20px;
+        margin: 0 0 10px 0;
+    }
+    .yyy{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .yy{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .f-img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .f-img img{
+        margin-left: 40px;
+        width: 300px;
+    }
+    .ic img{
+        width: 40px;
+        height: 40px;
+    }
+    .f-icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .verh{
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+    }
+    .verh p{
+        display: none;
+    }
+    .nav-icon{
+        display: none;
+    }
+    h1{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .burger{
+        margin-bottom: 5px;
+        margin-top: 35px;
+        margin-left: 40px;
+    }
+}
