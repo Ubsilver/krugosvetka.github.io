@@ -47,9 +47,11 @@ h4{
 }
 .m-text{
     margin: 0;
+    width: 800px;
 }
 .coin{
     width: 527px;
+    margin-right: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,7 +62,7 @@ h4{
 .podr-btn {
     background-color: #E6641B;
     border-radius: 65px;
-    width: 223px;
+    width: 253px;
     height: 50px;
     font-weight: 600;
     font-size: 20px;
@@ -77,6 +79,15 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.kartink img{
+    margin-right: 20px;
+}
+.krasota2{
+    width: 460px;
+}
+.nij-bl{
+    width: 780px;
 }
 @media(max-width: 375px){
     .krasota{
